@@ -1,4 +1,4 @@
-### Stepic C++ Multithreaded Programming
+### Stepik C++ Multithreaded Programming
 ---
 
 ##### Exercise 2.1 (Derivative of polynomial)
