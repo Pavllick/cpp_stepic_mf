@@ -19,6 +19,18 @@
 - netinet/in.h
 - unistd.h
 
+##### Exercise 3.2 (Chat)
+- kqueue
+- performance of chat server
+
+##### Exercise 5.2.1 (Signals handlers)
+- signal.h
+- interrupt foreign signals
+
+##### Exercise 5.2.2 (Zombie process)
+- fork()
+- waitpid() - waiting for chaild process exit code
+
 
 ---
 Link to curse: [C++ Multithreaded Programming](https://stepik.org/course/149/syllabus)
