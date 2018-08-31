@@ -31,6 +31,18 @@
 - fork()
 - waitpid() - waiting for chaild process exit code
 
+##### Exercise 5.4.1 (Shell emulator)
+- pipe();
+- STDIN_FILENO, STDOUT_FILENO
+- redirect std in/out
+
+##### Exercise 5.4.2 (fifo stream)
+- mkfifo()
+- infinite read from one file and write to another
+
+##### Exercise 5.4.3 (Processes pairing)
+- socketpair()
+- pair two separate processes
 
 ---
 Link to curse: [C++ Multithreaded Programming](https://stepik.org/course/149/syllabus)
