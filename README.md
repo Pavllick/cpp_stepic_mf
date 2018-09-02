@@ -44,5 +44,17 @@
 - socketpair()
 - pair two separate processes
 
+##### Exercise 6.2.1 (SysV Queue)
+- ftok()
+- msgget() / msgrcv() / msgsnd() / msgctl()
+- read from queue and write to file
+- linked to real file in OS
+
+##### Exercise 6.2.2 (POSIX Queue)
+- mq_open() / mq_recieve() / mq_send()
+- mq_unlink() / mq_close()
+-	read from queue and write to file
+- not linked to file in OS
+
 ---
 Link to curse: [C++ Multithreaded Programming](https://stepik.org/course/149/syllabus)
