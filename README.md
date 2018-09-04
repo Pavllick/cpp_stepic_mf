@@ -45,16 +45,30 @@
 - pair two separate processes
 
 ##### Exercise 6.2.1 (SysV Queue)
-- ftok()
-- msgget() / msgrcv() / msgsnd() / msgctl()
+- ftok() / msgget() / msgrcv() / msgsnd() / msgctl()
 - read from queue and write to file
 - linked to real file in OS
 
 ##### Exercise 6.2.2 (POSIX Queue)
-- mq_open() / mq_recieve() / mq_send()
-- mq_unlink() / mq_close()
+- mq_open() / mq_recieve() / mq_send() / mq_unlink() / mq_close()
 -	read from queue and write to file
 - not linked to file in OS
+
+##### Exercise 6.3.1 (SysV Semaphore)
+- ftok() / semget() / semctl()
+- file access control
+
+##### Exercise 6.3.1 (POSIX Semaphore)
+- sem_open() / sem_wait() / sem_close() / sem_unlink()
+- file access control
+
+##### Exercise 6.4.1 (SysV Shared Memory)
+- ftok() / shmget() / shmctl() / shmat() /shmdt()
+- allocate shared memory segment
+
+##### Exercise 6.4.2 (POSIX Shared Memory)
+- shm_open() / ftruncate() / mmap() / munmap() / shm_unlink()
+- allocate shared memory segment
 
 ---
 Link to curse: [C++ Multithreaded Programming](https://stepik.org/course/149/syllabus)
