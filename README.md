@@ -88,6 +88,14 @@
 - pthread_once()
 - synchronise threads by make them wait
 
+##### No Exercise 7.4 (C++11 Threads and mutexes)
+- std::thread / .join() / .detach()
+- std::mutex / .lock() / .trylock() / .unlock()
+- std::unique_lock<std::mutex>
+- std::condition_variable
+- .wait() / .wait_for() /.wait_until() / .notify_one() /.notify_all()
+- std::future<type> / std::async() / .get()
+- C++11 thread tools
 
 ---
 Link to curse: [C++ Multithreaded Programming](https://stepik.org/course/149/syllabus)
