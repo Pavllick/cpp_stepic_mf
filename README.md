@@ -70,5 +70,24 @@
 - shm_open() / ftruncate() / mmap() / munmap() / shm_unlink()
 - allocate shared memory segment
 
+##### Exercise 7.1 (POSIX Threads)
+- pthread_t / pthread_create() / pthread_join() / pthread_detach()
+- create thread, sent data to thread and recieve data back
+
+##### Exercise 7.2 (Mutex and spinlock)
+- pthread_mutex_t / pthread_spinlock_t / pthread_rwlock_t
+- pthraed_mutex_lock() / pthread_spin_lock() / pthread_rwlock_wrlock()
+- pthread_mutex_unlock() / pthread_spin_unlock() / pthread_rwlock_unlock()
+- pthread_mutex_destroy() / pthread_spin_destroy() / pthread_rwlock_destroy()
+- create different types of mutex
+
+##### Exercise 7.3 (Conditional vars)
+- pthread_cond_t / pthread_barrier_t / pthread_once_t
+- pthread_cond_wait() / pthread_barrier_init() / pthread_barrier_wait()
+- pthread_cond_destroy() / pthread_barrier_destroy()
+- pthread_once()
+- synchronise threads by make them wait
+
+
 ---
 Link to curse: [C++ Multithreaded Programming](https://stepik.org/course/149/syllabus)
