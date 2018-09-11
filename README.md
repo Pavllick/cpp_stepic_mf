@@ -97,5 +97,8 @@
 - std::future<type> / std::async() / .get()
 - C++11 thread tools
 
+##### Exercise 8.3 (Multi-threading with OpenMP, Intel TBB and MPI)
+- merge sort algorithm with OpenMP multi-threading
+
 ---
 Link to curse: [C++ Multithreaded Programming](https://stepik.org/course/149/syllabus)
