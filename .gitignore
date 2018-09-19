@@ -1,9 +1,9 @@
 .DS_Store
 
-9_1/Makefile
-9_1/CMakeCache.txt
-9_1/CMakeFiles/
-9_1/cmake_install.cmake
-9_1/final
-9_1/*.html
-9_1/makefile_old
+/9_1/Makefile
+/9_1/CMakeCache.txt
+/9_1/CMakeFiles/
+/9_1/cmake_install.cmake
+/9_1/final
+/9_1/*.html
+/9_1/makefile_old
