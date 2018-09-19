@@ -1,9 +1,0 @@
-.DS_Store
-
-Makefile
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-final
-*.html
-makefile_old

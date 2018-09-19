@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/final.dir/final.cpp.o CMakeFiles/final.dir/src/sock_con.cpp.o  -o final 

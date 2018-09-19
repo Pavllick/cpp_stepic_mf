@@ -1,3 +1,0 @@
-/Users/pavlick/cpr/mt_cource/9_1/CMakeFiles/rebuild_cache.dir
-/Users/pavlick/cpr/mt_cource/9_1/CMakeFiles/edit_cache.dir
-/Users/pavlick/cpr/mt_cource/9_1/CMakeFiles/final.dir
