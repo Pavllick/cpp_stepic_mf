@@ -1,0 +1,5 @@
+all: final
+
+final: final.cpp
+	g++ -std=c++11 -Wall -g final.cpp -o final -pthread
+
