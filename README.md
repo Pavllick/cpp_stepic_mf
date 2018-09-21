@@ -100,5 +100,19 @@
 ##### Exercise 8.3 (Multi-threading with OpenMP, Intel TBB and MPI)
 - merge sort algorithm with OpenMP multi-threading
 
+##### Exercise 9.1 (HTTP Server)
+HTTP Server, assept http requests and send 200 code response
+and file content if file exists and 404 code if it's not.
+Multithreaded realization on kqueue and epoll.
+
+Execution command format:
+./final -h <ip> -p <port> -d <directory>
+example:
+./final -h 127.0.0.1 -p 4444 -d ~/tmp
+
+Test request command example:
+curl -v localhost:4444/index.html
+
+
 ---
 Link to curse: [C++ Multithreaded Programming](https://stepik.org/course/149/syllabus)
