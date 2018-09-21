@@ -3,7 +3,6 @@
 #include <iostream>
 #include <fstream>
 #include <regex>
-// #include <map>
 #include <sstream>
 
 #include <sys/types.h>
@@ -35,7 +34,7 @@ std::string Request::get_response(std::string req_header, std::string dir) {
 	std::string path = m[2].str();
 
 	std::string answ;
-	if(rm != "GET" && path == "")
+	if(rm != "GET" || path == "")
 		answ = Response::nf();
 	else {
 		std::ifstream f(dir + path);
